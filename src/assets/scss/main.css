@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+.navbar .navbar-light .navbar-brand {
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 3rem;
+}
+
+.navbar .navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "Poiret One", cursive;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.navbar .navbar-light .navbar-nav .nav-link :hover {
+  color: red;
+}
+
+.navbar-inner {
+  background-color: transparent;
+}
+
+.material-icons {
+  vertical-align: middle !important;
+  font-size: 48px;
+  padding-bottom: 3px;
+}
+
+#toggler-icon {
+  float: right;
+  color: white;
+}
+
+.fa-utensils {
+  color: white;
+}
+
+#head-icon {
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 3em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.page-footer {
+  color: white;
+  font-family: "Poiret One", cursive;
+  font-size: 1em;
+  text-align: center;
+  background-color: #262626;
+}
+
+.page-header {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../assets/background.jpg");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../assets/background.jpg");
+  background-size: cover;
+}
+
+#head-text {
+  color: white;
+  font-family: "Poiret One", cursive;
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

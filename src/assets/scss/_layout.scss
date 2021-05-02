@@ -1,0 +1,17 @@
+.page {
+    &-footer {
+        color: $main-color;
+        font-family: "Poiret One", cursive;
+        font-size: 1em;
+        text-align: center;
+        background-color: $dark-color;
+    }
+
+    &-header {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, 0.4) 0%,
+                rgba(0, 0, 0, 0.4) 100%),
+            url("../assets/background.jpg");
+        background-size: cover;
+    }
+}

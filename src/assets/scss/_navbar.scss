@@ -1,0 +1,32 @@
+.navbar {
+    .navbar-light {
+
+        .navbar-brand {
+            color: white;
+            font-family: "Fredericka the Great", cursive;
+            font-size: 3rem;
+        }
+
+
+
+        .navbar-nav {
+            .nav-link {
+                color: $main-color;
+                font-family: "Poiret One", cursive;
+                font-weight: lighter;
+                font-size: 1.5em;
+
+                :hover {
+                    color: red;
+                }
+
+            }
+
+        }
+
+    }
+
+    &-inner {
+        background-color: transparent;
+    }
+}
